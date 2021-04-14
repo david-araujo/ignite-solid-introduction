@@ -18,8 +18,6 @@ class User {
     if (!this.created_at && !this.updated_at) {
       this.created_at = new Date();
       this.updated_at = new Date();
-    } else {
-      this.updated_at = new Date();
     }
   }
 }
